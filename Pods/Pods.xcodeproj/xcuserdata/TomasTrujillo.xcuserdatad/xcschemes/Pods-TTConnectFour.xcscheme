@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F5CEBEF0C79377056AE6B2BBDBD222A5"
+               BlueprintIdentifier = "D8E9EB274BBC5162AFBCD921F9249B1F"
                BuildableName = "libPods-TTConnectFour.a"
                BlueprintName = "Pods-TTConnectFour"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F5CEBEF0C79377056AE6B2BBDBD222A5"
+            BlueprintIdentifier = "D8E9EB274BBC5162AFBCD921F9249B1F"
             BuildableName = "libPods-TTConnectFour.a"
             BlueprintName = "Pods-TTConnectFour"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -25,7 +25,7 @@ class LoadingViewController: UIViewController, StateControllerHandler {
         stateController?.load(completion: { completed in
             if completed {
                 self.activityIndicator.stopAnimating()
-                self.performSegue(withIdentifier: showTabSegueIdentifier, sender: self)
+                self.performSegue(withIdentifier: self.showTabSegueIdentifier, sender: self)
             }
         })
     }

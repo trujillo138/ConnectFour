@@ -18,7 +18,7 @@
 		4099DD6320181430007A334A /* GameHistoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4099DD6220181430007A334A /* GameHistoryDataSource.swift */; };
 		40C3AB782016B44B00E835F7 /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB772016B44B00E835F7 /* Chip.swift */; };
 		40C3AB7A2016B57D00E835F7 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB792016B57D00E835F7 /* GameBoard.swift */; };
-		40C3AB7C2016B5C500E835F7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB7B2016B5C400E835F7 /* Player.swift */; };
+		40C3AB7C2016B5C500E835F7 /* GamePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB7B2016B5C400E835F7 /* GamePlayer.swift */; };
 		40C3AB812016C62F00E835F7 /* StateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB802016C62F00E835F7 /* StateController.swift */; };
 		40C3AB832016C67000E835F7 /* GameHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB822016C67000E835F7 /* GameHistory.swift */; };
 		40C3AB852016C76400E835F7 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB842016C76400E835F7 /* ModelController.swift */; };
@@ -27,6 +27,8 @@
 		40C3AB8F2016CEC900E835F7 /* GameBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB8E2016CEC900E835F7 /* GameBoardViewController.swift */; };
 		40C3AB912016CED200E835F7 /* GameHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB902016CED200E835F7 /* GameHistoryViewController.swift */; };
 		40C3AB962016CFA500E835F7 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3AB952016CFA500E835F7 /* Board.swift */; };
+		40EBC9C52018A163003FB7C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40EBC9C42018A163003FB7C6 /* GoogleService-Info.plist */; };
+		40EBC9C72018A62F003FB7C6 /* GameBoard+Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBC9C62018A62F003FB7C6 /* GameBoard+Firebase.swift */; };
 		61E07AD1EEB749E306CB3003 /* libPods-TTConnectFour.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3DCBD0629E4E1DA3558943A /* libPods-TTConnectFour.a */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +46,7 @@
 		4099DD6220181430007A334A /* GameHistoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistoryDataSource.swift; sourceTree = "<group>"; };
 		40C3AB772016B44B00E835F7 /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
 		40C3AB792016B57D00E835F7 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
-		40C3AB7B2016B5C400E835F7 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		40C3AB7B2016B5C400E835F7 /* GamePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayer.swift; sourceTree = "<group>"; };
 		40C3AB802016C62F00E835F7 /* StateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateController.swift; sourceTree = "<group>"; };
 		40C3AB822016C67000E835F7 /* GameHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistory.swift; sourceTree = "<group>"; };
 		40C3AB842016C76400E835F7 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,8 @@
 		40C3AB8E2016CEC900E835F7 /* GameBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardViewController.swift; sourceTree = "<group>"; };
 		40C3AB902016CED200E835F7 /* GameHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistoryViewController.swift; sourceTree = "<group>"; };
 		40C3AB952016CFA500E835F7 /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		40EBC9C42018A163003FB7C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40EBC9C62018A62F003FB7C6 /* GameBoard+Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameBoard+Firebase.swift"; sourceTree = "<group>"; };
 		5FFAE709B6E7F95E8085340C /* Pods-TTConnectFour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConnectFour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTConnectFour/Pods-TTConnectFour.debug.xcconfig"; sourceTree = "<group>"; };
 		806826E7E7C34CF5E49F397D /* Pods-TTConnectFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTConnectFour.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTConnectFour/Pods-TTConnectFour.release.xcconfig"; sourceTree = "<group>"; };
 		C3DCBD0629E4E1DA3558943A /* libPods-TTConnectFour.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTConnectFour.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,6 +106,7 @@
 				403F4EE32016B317009C759F /* Assets.xcassets */,
 				403F4EE52016B317009C759F /* LaunchScreen.storyboard */,
 				403F4EE82016B317009C759F /* Info.plist */,
+				40EBC9C42018A163003FB7C6 /* GoogleService-Info.plist */,
 			);
 			path = TTConnectFour;
 			sourceTree = "<group>";
@@ -110,9 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				40C3AB772016B44B00E835F7 /* Chip.swift */,
-				40C3AB7B2016B5C400E835F7 /* Player.swift */,
+				40C3AB7B2016B5C400E835F7 /* GamePlayer.swift */,
 				40C3AB792016B57D00E835F7 /* GameBoard.swift */,
 				40C3AB822016C67000E835F7 /* GameHistory.swift */,
+				40EBC9C62018A62F003FB7C6 /* GameBoard+Firebase.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +259,7 @@
 			files = (
 				4099DD612018141D007A334A /* GameHistoryTableViewCell.xib in Resources */,
 				403F4EE72016B317009C759F /* LaunchScreen.storyboard in Resources */,
+				40EBC9C52018A163003FB7C6 /* GoogleService-Info.plist in Resources */,
 				403F4EE42016B317009C759F /* Assets.xcassets in Resources */,
 				403F4EE22016B317009C759F /* Main.storyboard in Resources */,
 			);
@@ -317,12 +324,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C3AB8B2016CD3F00E835F7 /* TabBarViewController.swift in Sources */,
-				40C3AB7C2016B5C500E835F7 /* Player.swift in Sources */,
+				40C3AB7C2016B5C500E835F7 /* GamePlayer.swift in Sources */,
 				40C3AB962016CFA500E835F7 /* Board.swift in Sources */,
 				40C3AB912016CED200E835F7 /* GameHistoryViewController.swift in Sources */,
 				4099DD5B20174DD4007A334A /* BoardChip.swift in Sources */,
 				403F4EDD2016B317009C759F /* AppDelegate.swift in Sources */,
 				40C3AB8F2016CEC900E835F7 /* GameBoardViewController.swift in Sources */,
+				40EBC9C72018A62F003FB7C6 /* GameBoard+Firebase.swift in Sources */,
 				40C3AB7A2016B57D00E835F7 /* GameBoard.swift in Sources */,
 				4099DD5D20174DFA007A334A /* BoardColumnButton.swift in Sources */,
 				40C3AB782016B44B00E835F7 /* Chip.swift in Sources */,

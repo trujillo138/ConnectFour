@@ -57,6 +57,16 @@ struct GameBoard {
         self.gameState = .inProgress
     }
     
+    //For finished games
+    init(players: [GamePlayer]) {
+        self.board = [[Chip?]]()
+        self.columns = 0
+        self.rows = 0
+        self.players = players
+        self.currentPlayer = players[0]
+        self.gameState = .finished
+    }
+    
     //MARK: Game
     
     //Returns the row where the chip fell for that column

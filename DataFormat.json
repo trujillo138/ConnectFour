@@ -1,0 +1,28 @@
+{
+  "games": {
+    	"game0":{
+      		"player1": {
+				"nickname":"Tomas",
+				"state": 1,
+				"chipsPlayed":6
+			},
+			"player2": {
+				"nickname":"Lau",
+				"state": 2,
+				"chipsPlayed":5
+			}
+    	},
+    	"game1":{
+      		"player1": {
+				"nickname":"Lau",
+				"state": 1,
+				"chipsPlayed":15
+			},
+			"player2": {
+				"nickname":"Tom",
+				"state": 2,
+				"chipsPlayed":14
+			}
+    	}
+  	}
+}

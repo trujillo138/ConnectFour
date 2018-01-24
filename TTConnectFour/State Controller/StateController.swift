@@ -18,7 +18,9 @@ class StateController {
     
     lazy var gameBoard: GameBoard? = modelController.gameBoard
     
-    lazy var history: GameHistory? = modelController.gameHistory
+    var history: GameHistory? {
+        return modelController.gameHistory
+    }
     
     lazy var modelController: ModelController = ModelController()
     
@@ -28,7 +30,7 @@ class StateController {
         modelController.saveModel(game: gameBoard, history: history)
     }
     
-    func load(completion: ((Bool) -> Void)) {
+    func load(completion: @escaping ((Bool) -> Void)) {
         modelController.loadModel(completion: completion)
     }
     
@@ -36,7 +38,7 @@ class StateController {
     
     func finishedGame(gameBoard: GameBoard) {
         update(game: gameBoard)
-        history?.addGameToHistory(game: gameBoard)
+        modelController.addGameToHistory(game: gameBoard)
         self.gameBoard = nil
     }
     
