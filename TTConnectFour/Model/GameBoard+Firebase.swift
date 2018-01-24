@@ -21,6 +21,7 @@ extension GameBoard {
 }
 
 extension GamePlayer {
+    
     static func getPlayerFrom(firebaseDictionary: NSDictionary, playerNumber: Int) -> GamePlayer? {
         guard let nickname = firebaseDictionary["nickname"] as? String,
                 let chipsPlayed = firebaseDictionary["chipsPlayed"] as? Int,
@@ -29,5 +30,9 @@ extension GamePlayer {
         player.chipsPlayed = chipsPlayed
         player.state = playerState
         return player
+    }
+    
+    func getPlayerDict() -> NSDictionary {
+        return ["nickname" : nickName, "chipsPlayed" : chipsPlayed, "state" : state.rawValue];
     }
 }

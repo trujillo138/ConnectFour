@@ -23,6 +23,18 @@ class ModelController {
     
     func addGameToHistory(game: GameBoard) {
         gameHistory?.addGameToHistory(game: game)
+        saveGameToFirebase(game: game)
+    }
+    
+    private func saveGameToFirebase(game: GameBoard) {
+        let player1Dict = game.players[0].getPlayerDict()
+        let player2Dict = game.players[1].getPlayerDict()
+        databaseReference.child("games").observeSingleEvent(of: .value) { snapshot in
+            let gameNumber = snapshot.children.allObjects.count
+            let keyName = "game\(gameNumber)"
+            self.databaseReference.child("games").child(keyName).child("player1").setValue(player1Dict)
+            self.databaseReference.child("games").child(keyName).child("player2").setValue(player2Dict)
+        }
     }
     
     //MARK: Model Loading and Saving
